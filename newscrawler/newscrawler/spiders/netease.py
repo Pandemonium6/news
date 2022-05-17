@@ -9,6 +9,7 @@ from scrapy.shell import inspect_response
 from newscrawler.items import NewsItem
 
 
+
 class NeteaseSpider(CrawlSpider):
     name = "netease"
     allowed_domains = ["163.com"]
